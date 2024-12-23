@@ -11,6 +11,13 @@ import ProductDetail from "./component/PageProduct";
 import Cartsave from "./pages/users/Cartsave";
 import ContractUs from "./pages/users/Contract-us";
 import FQA from "./pages/users/FQA";
+import ClList from "./component/ClList";
+import DecoList from "./component/DecoList";
+import FanList from "./component/FanList";
+import OutList from "./component/OutList";
+import LamList from "./component/LamList";
+import WallList from "./component/WallList";
+import Create from "./pages/Create";
 
 
 const renderUserRouter =()=> {
@@ -53,6 +60,34 @@ const renderUserRouter =()=> {
             path: ROUTERS.USER.FQA,
             component: <FQA/>,
         },
+        {
+            path: ROUTERS.USER.CL,
+            component: <ClList/>,
+        },
+        {
+            path: ROUTERS.USER.WALL,
+            component: <WallList/>,
+        },
+        {
+            path: ROUTERS.USER.LAM,
+            component: <LamList/>,
+        },
+        {
+            path: ROUTERS.USER.OUT,
+            component: <OutList/>,
+        },
+        {
+            path: ROUTERS.USER.FANS,
+            component: <FanList/>,
+        },
+        {
+            path: ROUTERS.USER.DECO,
+            component: <DecoList/>,
+        },
+        {
+            path: ROUTERS.USER. CREATE,
+            component: <Create/>,
+        },
     ]
     return(
         <MasterLayout>
@@ -70,3 +105,5 @@ const RouterCustom = () =>{
     return renderUserRouter() ;
 }
 export default RouterCustom;
+
+

@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate từ react-router-dom
-import products from "./ProductList.json"; // Thêm đúng đường dẫn đến tệp JSON
+import { useNavigate } from "react-router-dom";
+import products from "./ProductList.json";
 import "./Productstyle.css";
+import ProductCarousel from "./ProductlistRandom/ProductList";
 
 const SplList = () => {
   const [sortOption, setSortOption] = useState("default");
   const [selectedColor, setSelectedColor] = useState("all");
   const [priceRange, setPriceRange] = useState([0, 1000]);
-  const navigate = useNavigate(); // Khởi tạo useNavigate
+  const [searchQuery, setSearchQuery] = useState("");
+  const navigate = useNavigate();
 
-  // Lọc sản phẩm theo màu sắc, giá và category
+  // Filter products based on category, color, price range, and search query
   const filteredProducts = products.filter((product) => {
-    // Kiểm tra category
     if (product.category !== "Spl") return false;
 
-    // Kiểm tra màu sắc nếu có
     if (selectedColor !== "all") {
       const colorMatch = product.color.some(
         (c) => c.value.toLowerCase() === selectedColor.toLowerCase()
@@ -22,11 +22,17 @@ const SplList = () => {
       if (!colorMatch) return false;
     }
 
-    // Kiểm tra khoảng giá
+    if (searchQuery) {
+      const nameMatch = product.name
+        .toLowerCase()
+        .includes(searchQuery.toLowerCase());
+      if (!nameMatch) return false;
+    }
+
     return product.price >= priceRange[0] && product.price <= priceRange[1];
   });
 
-  // Sắp xếp các sản phẩm theo tên hoặc giá
+  // Sort products based on the selected sort option
   const sortedProducts = [...filteredProducts].sort((a, b) => {
     if (sortOption === "name") {
       return a.name.localeCompare(b.name);
@@ -38,28 +44,35 @@ const SplList = () => {
     return 0;
   });
 
-  // Lấy danh sách các màu sắc duy nhất từ tất cả các sản phẩm
   const uniqueColors = Array.from(
     new Set(products.flatMap((product) => product.color.map((c) => c.value)))
   );
 
-  // Hàm xử lý khi người dùng nhấp vào màu sắc
   const handleColorClick = (color) => {
-    // Nếu màu sắc đã được chọn, sẽ reset về "all"
-    if (selectedColor === color) {
-      setSelectedColor("all"); // Reset lại về "all"
-    } else {
-      setSelectedColor(color);
-    }
+    setSelectedColor(selectedColor === color ? "all" : color);
   };
 
-  // Hàm xử lý khi người dùng nhấp vào nút sản phẩm
   const handleProductClick = (productLink) => {
-    navigate(`/products/${productLink}`); // Điều hướng đến trang sản phẩm
+    navigate(`/products/${productLink}`);
   };
 
   return (
     <div>
+      <nav aria-label="breadcrumb" className="breadcrumb-container">
+        <ol className="breadcrumb-list">
+          <li className="breadcrumb-item">
+            <a href="/Homepage" className="breadcrumb-link">
+              Home
+            </a>
+          </li>
+          <li className="breadcrumb-separator">»</li>
+          <li className="breadcrumb-item">
+            <a href="/Spot-Lights" className="breadcrumb-link">
+              Spot light
+            </a>
+          </li>
+        </ol>
+      </nav>
       <section className="head-body">Spot Light</section>
       <hr align="center" width="10%" color="#c9a22e" />
       <div className="spl-list-container">
@@ -79,14 +92,15 @@ const SplList = () => {
             </select>
           </div>
 
-          {/* Bộ lọc màu sắc */}
           <div className="color-filter">
             <label htmlFor="color">Filter by Color: </label>
             <div className="color-options">
               {uniqueColors.map((color, index) => (
                 <div
                   key={index}
-                  className={`color-dot ${selectedColor === color ? "selected" : ""}`}
+                  className={`color-dot ${
+                    selectedColor === color ? "selected" : ""
+                  }`}
                   style={{ backgroundColor: color }}
                   onClick={() => handleColorClick(color)}
                 ></div>
@@ -94,7 +108,6 @@ const SplList = () => {
             </div>
           </div>
 
-          {/* Bộ lọc khoảng giá */}
           <div className="filter-section">
             <label htmlFor="price">Price Range: </label>
             <input
@@ -104,22 +117,34 @@ const SplList = () => {
               max="1000"
               step="10"
               value={priceRange[1]}
-              onChange={(e) => setPriceRange([priceRange[0], parseInt(e.target.value)])}
+              onChange={(e) =>
+                setPriceRange([priceRange[0], parseInt(e.target.value)])
+              }
             />
             <span>
               ${priceRange[0]} - ${priceRange[1]}
             </span>
           </div>
+
+          <div className="filter-section">
+            <label htmlFor="search">Search: </label>
+            <input
+              type="text"
+              id="search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search by name"
+              className="search-input"
+            />
+          </div>
         </div>
 
         <div className="product-list">
           {sortedProducts.map((product, index) => (
-              <div className="product-item">
-                 <button  key={index} onClick={() => handleProductClick(product.productLink)} >
-                 <img src={product.image[0]} alt={product.name} />
+            <div className="product-item" key={index}>
+              <button onClick={() => handleProductClick(product.productLink)}>
+                <img src={product.image[0]} alt={product.name} />
                 <h3 className="product-name">{product.name}</h3>
-
-                {/* Hiển thị các màu sắc của sản phẩm */}
                 <div className="product-colors">
                   {product.color.map((color, i) => (
                     <div
@@ -134,12 +159,12 @@ const SplList = () => {
                   ))}
                 </div>
                 <p className="product-price">${product.price.toFixed(2)}</p>
-                </button>
-              </div>
-            
+              </button>
+            </div>
           ))}
         </div>
       </div>
+      <ProductCarousel />
     </div>
   );
 };

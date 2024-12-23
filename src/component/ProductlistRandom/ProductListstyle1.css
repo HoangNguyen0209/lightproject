@@ -1,0 +1,108 @@
+/* Bố cục toàn bộ carousel */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Đảm bảo chiếm toàn bộ chiều rộng */
+  overflow: hidden; /* Ẩn các phần ngoài phạm vi hiển thị */
+  padding: 70px;
+}
+
+/* Bố cục danh sách sản phẩm trong carousel */
+.product-list.coumle {
+  display: flex;
+  flex-wrap: nowrap; /* Đảm bảo tất cả sản phẩm nằm trong 1 hàng */
+  gap: 20px; /* Khoảng cách giữa các sản phẩm */
+  transition: transform 0.5s ease-in-out; /* Thêm hiệu ứng khi cuộn */
+  will-change: transform; /* Cải thiện hiệu suất khi chuyển động */
+}
+
+/* Phong cách từng sản phẩm */
+.product-item {
+  width: 200px; /* Chiều rộng mỗi sản phẩm */
+  flex-shrink: 0; /* Đảm bảo sản phẩm không bị co lại */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Hình ảnh sản phẩm */
+.product-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Tên sản phẩm */
+.product-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Giá sản phẩm */
+.product-price {
+  font-size: 16px;
+  color: #e53935;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Bộ chọn màu sắc */
+.product-colors {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 5px;
+}
+
+.color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.color-dot:hover {
+  transform: scale(1.2);
+}
+
+/* Các nút điều khiển carousel */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

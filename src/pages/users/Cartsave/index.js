@@ -24,7 +24,29 @@ const Cartsave = () => {
     .reduce((total, item) => total + item.price * item.quantity, 0)
     .toFixed(2);
 
+  // Hàm xử lý thanh toán
+  const handlePayment = () => {
+    alert("Proceeding to payment...");
+    // Here you can integrate a payment gateway like Stripe, PayPal, etc.
+  };
+
   return (
+    <div>
+        <nav aria-label="breadcrumb" className="breadcrumb-container">
+    <ol className="breadcrumb-list">
+      <li className="breadcrumb-item">
+        <a href="/Shopping-cart" className="breadcrumb-link">
+          Home
+        </a>
+      </li>
+      <li className="breadcrumb-separator">»</li>
+      <li className="breadcrumb-item">
+        <a href="/Log-in" className="breadcrumb-link">
+          Shopping Cart
+        </a>
+      </li>
+    </ol>
+  </nav>
     <div className="shopping-cart-container">
       <h1 className="shopping-cart-title">Shopping Cart</h1>
       <ul className="shopping-cart-list">
@@ -36,8 +58,7 @@ const Cartsave = () => {
                 alt={item.name}
                 className="shopping-cart-item-image"
               />
-
-              <span className="shopping-cart-item-name">{item.name}</span> -
+              <span className="shopping-cart-item-name">{item.name}</span> - 
               <span className="shopping-cart-item-price">{item.price} $</span>
 
               <div className="quantity-container">
@@ -77,8 +98,15 @@ const Cartsave = () => {
       {cart.length > 0 && (
         <div className="cart-summary">
           <h3>Total Price: {totalPrice} $</h3>
+          <button
+            className="buy-now-button"
+            onClick={handlePayment}
+          >
+            Proceed to Payment
+          </button>
         </div>
       )}
+    </div>
     </div>
   );
 };

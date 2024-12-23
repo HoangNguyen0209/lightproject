@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import products from "./ProductList.json"; // Thêm đúng đường dẫn đến tệp JSON
 import "./Productstyle.css";
+import ProductCarousel from "./ProductlistRandom/ProductList";
 
 const DlList = () => {
   const [sortOption, setSortOption] = useState("default");
@@ -60,6 +61,21 @@ const DlList = () => {
 
   return (
     <div>
+      <nav aria-label="breadcrumb" className="breadcrumb-container">
+      <ol className="breadcrumb-list">
+        <li className="breadcrumb-item">
+          <a href="/Homepage" className="breadcrumb-link">
+            Home
+          </a>
+        </li>
+        <li className="breadcrumb-separator">»</li>
+        <li className="breadcrumb-item">
+        <a href="/Decoration-Lights" className="breadcrumb-link">
+            Decoration light
+          </a>
+        </li>
+      </ol>
+    </nav>
       <section className="head-body">Decoration Light</section>
       <hr align="center" width="10%" color="#c9a22e" />
       <div className="spl-list-container">
@@ -140,6 +156,7 @@ const DlList = () => {
           ))}
         </div>
       </div>
+      <ProductCarousel/>
     </div>
   );
 };

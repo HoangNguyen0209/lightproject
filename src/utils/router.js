@@ -10,5 +10,12 @@ export const ROUTERS ={
         CARTSAVE:"/Shopping-cart",
         CONTRACTUS:"/Contract-us",
         FQA:"/Customer-Help",
+        CL:"/Celling-lights",
+        WALL:"/Wall-lights",
+        LAM:"/Lamps",
+        OUT:"/OutDoor-Lights",
+        FANS:"/Fans",
+        DECO:"/Home-Accents",
+        CREATE:"/Create",
     }
 }

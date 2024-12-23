@@ -1,149 +1,171 @@
 /* Container của giỏ hàng */
 .shopping-cart-container {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
-  }
-  
-  /* Tiêu đề của giỏ hàng */
-  .shopping-cart-title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  /* Danh sách sản phẩm */
-  .shopping-cart-list {
-    max-height: none;
-    list-style-type: none;
-    padding: 0;
-    margin: 0px;
-  }
-  .shopping-cart-item-image {
-    width: 80px; /* Đặt chiều rộng của hình ảnh */
-    height: 80px; /* Đặt chiều cao của hình ảnh */
-    object-fit: contain; /* Giữ tỷ lệ khung hình và cắt hình nếu cần */
-    border-radius: 8px; /* Tùy chọn: bo góc hình ảnh */
-    display: block; /* Đảm bảo hình ảnh không bị lệch */
-  }
-  /* Mỗi sản phẩm trong giỏ hàng */
-  .shopping-cart-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-    gap:21px;
-  }
-  
-  .shopping-cart-item:last-child {
-    border-bottom: none;
-  }
-  
-  /* Tên sản phẩm */
-  .shopping-cart-item-name {
-    font-weight: bold;
-    color: #333;
-  }
-  
-  /* Giá sản phẩm */
-  .shopping-cart-item-price {
-    color: #888;
-    margin-left: 10px;
-  }
-  
-  /* Nút xóa sản phẩm */
-  .shopping-cart-remove-button {
-    background-color: #e74c3c;
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .shopping-cart-remove-button:hover {
-    background-color: #c0392b;
-  }
-  
-  /* Container số lượng */
-  .quantity-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Nút tăng/giảm số lượng */
-  .quantity-button {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 0 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .quantity-button:hover {
-    background-color: #2980b9;
-  }
-  
-  /* Hiển thị số lượng */
-  .quantity-display {
-    font-size: 16px;
-    color: #333;
-  }
-  
-  /* Tổng tiền */
-  .item-total {
-    font-weight: bold;
-    color: #333;
-  }
- /* Container tổng giá và nút Buy Now */
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề của giỏ hàng */
+.shopping-cart-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Danh sách sản phẩm */
+.shopping-cart-list {
+  max-height: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+}
+
+.shopping-cart-item-image {
+  width: 80px; /* Đặt chiều rộng của hình ảnh */
+  height: 80px; /* Đặt chiều cao của hình ảnh */
+  object-fit: contain; /* Giữ tỷ lệ khung hình và cắt hình nếu cần */
+  border-radius: 8px; /* Tùy chọn: bo góc hình ảnh */
+  display: block; /* Đảm bảo hình ảnh không bị lệch */
+}
+
+/* Mỗi sản phẩm trong giỏ hàng */
+.shopping-cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  gap: 21px;
+}
+
+.shopping-cart-item:last-child {
+  border-bottom: none;
+}
+
+/* Tên sản phẩm */
+.shopping-cart-item-name {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Giá sản phẩm */
+.shopping-cart-item-price {
+  color: #888;
+  margin-left: 10px;
+}
+
+/* Nút xóa sản phẩm */
+.shopping-cart-remove-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shopping-cart-remove-button:hover {
+  background-color: #c0392b;
+}
+
+/* Container số lượng */
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Nút tăng/giảm số lượng */
+.quantity-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-button:hover {
+  background-color: #2980b9;
+}
+
+/* Hiển thị số lượng */
+.quantity-display {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Tổng tiền */
+.item-total {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Container tổng giá và nút Buy Now */
 .cart-summary {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
-  }
-  
-  /* Tổng tiền */
-  .cart-summary h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  /* Nút Buy Now */
-  .buy-now-button {
-    background-color: #2ecc71;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .buy-now-button:hover {
-    background-color: #27ae60;
-  }
-  
-  .buy-now-button:disabled {
-    background-color: #95a5a6;
-    cursor: not-allowed;
-  }
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/* Tổng tiền */
+.cart-summary h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Nút Buy Now */
+.buy-now-button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+  background-color: #27ae60;
+}
+
+.buy-now-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Nút Proceed to Payment */
+.buy-now-button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+  background-color: #27ae60;
+}
+
+.buy-now-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}

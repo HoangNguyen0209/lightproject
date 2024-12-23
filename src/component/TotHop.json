@@ -1,0 +1,1217 @@
+[
+    {
+      "id": 1,
+      "name": "Korokoro Wall Hooks",
+      "image": ["/DECO/01a.jpg"],
+      "color": [
+        {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+        {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+        {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+      ],
+      "price": 39.00,
+      "productLink": "1",
+      "category": "Dc",
+      "description": "Boho, but make it functional! This adorable and useful set of wall hooks is the perfect spot to hang your bag and coat when you get home from a long day. Because this product is made of natural materials, no two will be exactly alike in construction, adding to the unique charm and beauty of this lovely piece. This piece does not include mounting hardware."
+    },
+    {
+      "id": 2,
+      "name": "White Ceramic Urchin Vase",
+      "image": ["/DECO/02b.jpg"],
+      "color": [
+        {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+        {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+        {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+      ],
+      "price": 33.00,
+      "productLink": "2",
+      "category": "Dc",
+      "description": "This small urchin vase is a perfect perch for your air plant or just a great sculptural beachy addition to any surface."
+    },
+    {
+      "id": 3,
+      "name": "Holiday Window Candle",
+      "image": ["/DECO/03b.jpg", "/DECO/04c.jpg"],
+      "color": [
+        {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+        {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+      ],
+      "price": 35.00,
+      "productLink": "3",
+      "category": "Dc",
+      "description": "No need to worry about a pet, child or window treatment knocking over your window candles ever again! This Holiday Window Candle will stay in place the holiday season with its clever tab meant to be placed between the window sash and sill. Hand crafted in Richmond, VA by our skilled craftspeople."
+    },
+    {
+      "id": 4,
+      "name": "Cleo Fireplace Screen",
+      "image": ["/DECO/05c.jpg", "/DECO/06d.jpg"],
+      "color": [
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+        {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+      ],
+      "price": 372.00,
+      "productLink": "4",
+      "category": "Dc",
+      "description": "Elevate your living space with the captivating Cleo Fireplace Screen. Each hand-forged, hammered iron branch emanates a radiant gold leaf finish, inspiring a sense of warmth and elegance."
+    },
+    {
+      "id": 5,
+      "name": "Relic Decorative Beads",
+      "image": ["/DECO/07e.jpg", "/DECO/08e.jpg"],
+      "color": [
+        {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border":  "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 48.00,
+    "productLink": "5",
+    "category": "Dc",
+    "description": "If natural vibes dominate your vision board, these decorative beads may help you live the dream. Natural clay peeks through the distressed black finish, offering textural depth and rustic charm. Place them on your bookshelf or hang them on the wall for a chic, earthy touch."
+  },
+  {
+    "id": 6,
+    "name": "Brass Bauble Candlesticks - Set of 3",
+    "image": ["/DECO/09f.jpg", "/DECO/10f.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 84.00,
+    "productLink": "6",
+    "category": "Dc",
+    "description": "These totally adorable candlesticks mix a bubbly, whimsical shape with the elegant sophistication of aged brass, making our Brass Bauble Candlesticks a brilliant accent to rooms merging modern and traditional themes. This fresh update on a classic candlestick array is perfect for grandmillennial, maximalist, and updated traditional styles, or rooms with a boho or eclectic theme."
+  },
+  {
+    "id": 7,
+    "name": "Shimla Vase",
+    "image": ["/DECO/11j.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 10.20,
+    "productLink": "7",
+    "category": "Dc",
+    "description": "Simply sweet with a glossy appeal, our Shimla Vase has a shapely silhouette with side handles to bring in its personality. As a kitchen accessory or a living room vase, this vase will fit right into your chosen decor."
+  },
+  {
+    "id": 8,
+    "name": "Whale Bookends",
+    "image": ["/DECO/12g.jpg"],
+    "color": [
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 47.00,
+    "productLink": "8",
+    "category": "Dc",
+    "description": "Coming from the deep blue, our Whale Bookends will be the finishing touch for your beach house or nautical inspired study. The whale has a distressed aesthetic for an antiqued feel."
+  },
+  {
+    "id": 9,
+    "name": "Recycled Wooden Deer Head Wall Hanging",
+    "image": ["/DECO/13h.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 72.00,
+    "productLink": "9",
+    "category": "Dc",
+    "description": "Add this wooden deer head to your interior space for that instant rustic feel."
+  },
+  {
+    "id": 10,
+    "name": "Empire Wall Clock",
+    "image": ["/DECO/14k.jpg", "/DECO/15k.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 160.00,
+    "productLink": "10",
+    "category": "Dc",
+    "description": "Mahogany and shimmering gold finish make up our Empire Wall Clock. The striking contrast creates an upscale modern aesthetic, perfect for your living room or your office."
+  },
+  {
+    "id": 11,
+    "name": "Sea Breeze Surfboard Wall Decor",
+    "image": ["/DECO/16l.jpg", "/DECO/17l.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 196.00,
+    "productLink": "11",
+    "category": "Dc",
+    "description": "Perfect for a beachside bungalow or coastal hideaway, this lovely surfboard wall decor evokes an easy-breezy state of mind with muted sea greens and natural wood tones."
+  },
+  {
+    "id": 12,
+    "name": "Open Weave Seagrass Basket",
+    "image": ["/DECO/18m.jpg", "/DECO/19m.jpg"],
+    "color": [
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 29.00,
+    "productLink": "12",
+    "category": "Dc",
+    "description": "29.00"
+  },
+  {
+    "id": 13,
+    "name": "48 - Indoor / Outdoor Metal and Wood Ceiling Fan",
+    "image": ["/FAN/01ab.jpg", "/FAN/02ab.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 509.00,
+    "productLink": "13",
+    "category": "Fan",
+    "description": "This quiet indoor/outdoor metal and wood ceiling fan showcases a modern three blade design that embraces an artistic balance of cutting-edge technology, beauty, and modern design. Three forward and three reverse speeds can be controlled by a handheld remote; the reverse switch is located on the fan motor. Sloped ceiling compatible up to 19 degrees, this fan suits a variety of indoor spaces, like living rooms, and outdoor spaces like patios and porches. Optional sloped ceiling ball kits are available for slope angles up to 42 degrees. Minimum hanging clearance is 7 ft. Optional close to ceiling kit is available. Wood blades feature natural variation."
+  },
+  {
+    "id": 14,
+    "name": "48 - Indoor / Outdoor Metal and Wood LED Ceiling Fan",
+    "image": ["/FAN/03ac.jpg", "/FAN/04ac.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 649.00,
+    "productLink": "14",
+    "category": "Fan",
+    "description": "This quiet indoor/outdoor metal and wood ceiling fan with lights showcases a modern three blade design that embraces an artistic balance of cutting-edge technology, beauty, and modern design. Three forward and three reverse speeds can be controlled by a handheld remote; the reverse switch is located on the fan motor. Sloped ceiling compatible up to 19 degrees, this fan suits a variety of indoor spaces, like living rooms, and outdoor spaces like patios and porches. Optional sloped ceiling ball kits are available for slope angles up to 42 degrees. Minimum hanging clearance is 7 ft. Optional close to ceiling kit is available. Wood blades feature natural variation."
+  },
+  {
+    "id": 15,
+    "name": "60 - Indoor / Outdoor Metal and Wood Ceiling Fan",
+    "image": ["/FAN/05ad.jpg", "/FAN/06ad.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 545.00,
+    "productLink": "15",
+    "category": "Fan",
+    "description": "This quiet indoor/outdoor metal and wood ceiling fan showcases a modern three blade design that embraces an artistic balance of cutting-edge technology, beauty, and modern design. Three forward and three reverse speeds can be controlled by a handheld remote; the reverse switch is located on the fan motor. Sloped ceiling compatible up to 19 degrees, this fan suits a variety of indoor spaces, like living rooms, and outdoor spaces like patios and porches. Optional sloped ceiling ball kits are available for slope angles up to 42 degrees. Minimum hanging clearance is 7 ft. Optional close to ceiling kit is available. Wood blades feature natural variation."
+  },
+  {
+    "id": 16,
+    "name": "54 - Modern Globe LED Ceiling Fan",
+    "image": ["/FAN/07a.jpg", "/FAN/08a.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 275.00,
+    "productLink": "16",
+    "category": "Fan",
+    "description": "Our Modern Globe Ceiling Fan has a transitional appeal with a modern twist. The center planet holds an LED light that expands to four blades for efficient airflow in your home's atmosphere. Each colorway has various mixed metals to choose from to best adorn your living room or bedroom."
+  },
+  {
+    "id": 17,
+    "name": "52 - Ciara LED Ceiling Fan",
+    "image": ["/FAN/08a.jpg", "/FAN/09b.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 246.00,
+    "productLink": "17",
+    "category": "Fan",
+    "description": "With a rounded cylinder body and accenting blades to compliment it, our Ciara 52 - Ceiling Fan will offer your stunning space a minimalistic design and cooling capabilities. The LED downlight adds a special detail along with its reversible blades in varying finishes, making this ceiling decoration your perfect finishing touch for a living room or bedroom."
+  },
+  {
+    "id": 18,
+    "name": "52 - Boreas LED Ceiling Fan",
+    "image": ["/FAN/10c.jpg", "/FAN/11c.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}}
+    ],
+    "price": 330.00,
+    "productLink": "18",
+    "category": "Fan",
+    "description": "This contemporary ceiling fan blends traditional and modern fan design for a piece that will upgrade your space with the versatility to fit any decor theme. Constructed from plywood blades in a number of attractive finishes, a metal body, and a built-in light kit, this fan is perfect for adding extra light and airflow to any bedroom, living room, or kitchen."
+  },
+  {
+    "id": 19,
+    "name": "52 - Samara Indoor / Outdoor Ceiling Fan",
+    "image": ["/FAN/12d.jpg", "/FAN/13d.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 749.00,
+    "productLink": "19",
+    "category": "Fan",
+    "description": "Our Samara Ceiling Fan has sweeping blades that glide effortlessly at six different speeds to cool your space accordingly. With the ability to offer your outdoors a fresh breeze, this fan's stylish design can be a living room asset or a covered patio's adornment."
+  },
+  {
+    "id": 20,
+    "name": "60 - Indoor / Outdoor Metal and Wood LED Ceiling Fan",
+    "image": ["/FAN/14e.jpg", "/FAN/15e.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 685.00,
+    "productLink": "20",
+    "category": "Fan",
+    "description": "This quiet indoor/outdoor metal and wood ceiling fan with lights showcases a modern three blade design that embraces an artistic balance of cutting-edge technology, beauty, and modern design. Three forward and three reverse speeds can be controlled by a handheld remote; the reverse switch is located on the fan motor. Sloped ceiling compatible up to 19 degrees, this fan suits a variety of indoor spaces, like living rooms, and outdoor spaces like patios and porches. Optional sloped ceiling ball kits are available for slope angles up to 42 degrees. Minimum hanging clearance is 7 ft. Optional close to ceiling kit is available. Wood blades feature natural variation."
+  },
+  {
+    "id": 21,
+    "name": "60 - Cape May Ceiling Fan",
+    "image": ["/FAN/16f.jpg", "/FAN/17f.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 559.00,
+    "productLink": "21",
+    "category": "Fan",
+    "description": "A modern form is taken while encompassing a rustic aesthetic with a dash of nautical persona into our Cape May Ceiling Fan mix. All styles combine due to the sleek structure with the distressed blades to broaden its design. Gain an efficient airflow in your space to enjoy maximum relaxation from a fashionable and functional ceiling fan."
+  },
+  {
+    "id": 22,
+    "name": "52 - Modern Twisted Blade LED Ceiling Fan",
+    "image": ["/FAN/18j.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}}
+    ],
+    "price": 360.00,
+    "productLink": "22",
+    "category": "Fan",
+    "description": "This easy breezy contemporary ceiling fan shows off three twisted blades, an LED light kit, and sleek finishes."
+  },
+  {
+    "id": 23,
+    "name": "52 - Auster Indoor / Outdoor Ceiling Fan - 3 Blade",
+    "image": ["/FAN/19g.jpg", "/FAN/20g.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 396.00,
+    "productLink": "23",
+    "category": "Fan",
+    "description": "A slim motor and three blades make this streamlined modern ceiling fan a wonderful fit for decor of all styles. Understated yet highly stylish, and available in a range of finishes, this ceiling fan is the perfect upgrade for a kitchen, living room, or covered porch or patio."
+  },
+  {
+    "id": 24,
+    "name": "52 - Pierce Smart Indoor / Outdoor Ceiling Fan",
+    "image": ["/FAN/21h.jpg", "/FAN/22h.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}}
+    ],
+    "price": 350.00,
+    "productLink": "24",
+    "category": "Fan",
+    "description": "Urban stylings are all wrapped up in the design of our smart wifi-integrated Pierce Ceiling Fan. The long sleek blades are held together by an industrial body but with smart abilities incorporated in its functions. With the technology to pair with your home's wifi to meet your personal needs, this fan is capable of integrating with your voice-activated personal assistants. Also offered is an application downloadable on your smart devices as another controller for fan speeds and operations run on your schedule. Utilize this fabulous indoor-outdoor ceiling fan in any space in your home, whether it be in your living room or even your outdoor patio! Compatible with ceiling slopes up to 30 degrees."
+  },
+  {
+    "id": 25,
+    "name": "Arched Bridge Arm Adjustable Floor Lamp",
+    "image": ["/LAM/01a.jpg", "/LAM/02a.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 260.00,
+    "productLink": "25",
+    "category": "Lam",
+    "description": "Classic bridge floor lamp styling gets a lift from the curved arm and trendy cream drum shade."
+  },
+  {
+    "id": 26,
+    "name": "Superior Gallery Pharmacy Floor Lamp",
+    "image": ["/LAM/03b.jpg", "/LAM/04b.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 378.00,
+    "productLink": "26",
+    "category": "Lam",
+    "description":      "This lamp design was originally developed to provide pharmacists with directed work light. We found in it the most up-to-date features: hidden cord, high wattage for reading, easy screwless height adjustment, heavy weighted base and maintenance-free finishes."
+},
+{
+  "id": 27,
+  "name": "Arc Baudelair Floor Lamp",
+  "image": ["/LAM/05c.jpg", "/LAM/06c.jpg"],
+  "color": [
+    {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+    {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+    {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+  ],
+  "price": 250.00,
+  "productLink": "27",
+  "category": "Lam",
+  "description": "Form and function at its finest. Arcing over the desired space for stylish task lighting and adjustable height, our Baudelair Floor Lamp offers endless versatility and is perfect for an office setting."
+},
+{
+  "id": 28,
+  "name": "Modern Rustic Wood Arc Floor Lamp",
+  "image": ["/LAM/07d.jpg", "/LAM/08d.jpg"],
+  "color": [
+    {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+    {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+  ],
+  "price": 170.00,
+  "productLink": "28",
+  "category": "Lam",
+  "description": "Natural wood posts and satin steel accents construct this modern rustic adjustable arm floor lamp. Wood pegs adjust the height and angle of the off white cotton shade for directing light. The black fabric cord is tucked in an open channel on the square post and hangs from the back of the lamp. This floor lamp is a must have from rustic lodge to urban modern style."
+},
+{
+  "id": 29,
+  "name": "Modern Globes Vertical Floor Lamp",
+  "image": ["/LAM/09e.jpg", "/LAM/10e.jpg"],
+  "color": [
+    {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+    {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+    {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+    {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+  ],
+  "price": 285.00,
+  "productLink": "29",
+  "category": "Lam",
+  "description": "Update your space with the unique style of our Modern Globes Vertical Floor Lamp. The rounded shape creates a truly modern look for your living room or bedroom. LED light bulbs recommended."
+},
+{
+  "id": 30,
+  "name": "Country Club Adjustable Floor Lamp",
+  "image": ["/LAM/11f.jpg", "/LAM/12f.jpg"],
+  "color": [
+    {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+    {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+    {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+    {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+  ],
+  "price": 350.00,
+  "productLink": "30",
+  "category": "Lam",
+  "description": "This adjustable task floor lamp offers classic style and loads of function!"
+},
+{
+  "id": 31,
+  "name": "Marjem Arc Floor Lamp",
+  "image": ["/LAM/13j.jpg", "/LAM/14j.jpg"],
+  "color": [
+    {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+    {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+    {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border      ": "1px solid #ccc"}}
+    ],
+    "price": 225.00,
+    "productLink": "31",
+    "category": "Lam",
+    "description": "Transform your living space with elegance and vintage charm by adding an exquisite arc floor lamp with adjustable lighting capabilities and a beautiful marble base. Marjem's captivating retro-industrial design is guaranteed to turn heads and elevate the aesthetic of any setting."
+  },
+  {
+    "id": 32,
+    "name": "Iron Twig Floor Lamp",
+    "image": ["/LAM/15g.jpg"],
+    "color": [
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 339.00,
+    "productLink": "32",
+    "category": "Lam",
+    "description": "Hand-forged iron forms a creative tree branch with a deep textured bronze finish and is accented by a natural burlap drum shade."
+  },
+  {
+    "id": 33,
+    "name": "Kamitra Floor Lamp",
+    "image": ["/LAM/16h.jpg", "/LAM/17h.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 325.00,
+    "productLink": "33",
+    "category": "Lam",
+    "description": "Our Kamitra Floor Lamp combines bold and minimalist aesthetics for a stylish, functional lighting solution. It pairs perfectly with your favorite reading chair, creating a warm and inviting ambiance for your reading pleasure."
+  },
+  {
+    "id": 34,
+    "name": "Chloe Floor Lamp",
+    "image": ["/LAM/18k.jpg", "/LAM/19k.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 338.00,
+    "productLink": "34",
+    "category": "Lam",
+    "description": "Uniquely designed, the Chloe has four asymmetrical arms that hold up its tall drum shade and has a sleek profile that will allow it to blend with all types of decor."
+  },
+  {
+    "id": 35,
+    "name": "Seattle Floor Lamp",
+    "image": ["/LAM/20l.jpg", "/LAM/21l.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 262.00,
+    "productLink": "35",
+    "category": "Lam",
+    "description": "Stately and sleek, this modern floor lamp is a beautiful accompaniment to your contemporary space. Seattle's thick marble base and curved metal hardware give a lavish base for its distinct slanted linen shade. This dynamic lamp has a sculptural feel to complete your living room or office."
+  },
+  {
+    "id": 36,
+    "name": "Winter Floor Lamp",
+    "image": ["/LAM/22m.jpg", "/LAM/23m.jpg"],
+    "color": [
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 949.00,
+    "productLink": "36",
+    "category": "Lam",
+    "description": "This gorgeous floor lamp evokes shimmery winter scenery with a branching body in an understated array. The thin bars are reminiscent of bared tree branches just before a snowy storm. This design will transition well between eclectic, modern, and rustic rooms."
+  },
+  {
+    "id": 37,
+    "name": "Georgian Outdoor Sconce - 2 Light",
+    "image": ["/OUT/01a.jpg", "/OUT/02a.jpg"],
+    "color": [
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 699.00,
+    "productLink": "37",
+    "category": "Out",
+    "description": "Handcrafted in Richmond, Virginia by our team of local artisans, this exclusive outdoor wall light has design roots in the sprawling English countryside. The perfect solution for traditional homes, this handsome artisan light fixture includes 2 lights enclosed in a glass and blackened copper frame. Copper is a living metal that will change and patina gradually to a rich, dark color over time."
+  },
+  {
+    "id": 38,
+    "name": "Vintage Suspended Pane Outdoor Sconce - Small",
+    "image": ["/OUT/03b.jpg", "/OUT/04b.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Red", "style": {"backgroundColor": "#FF0000", "border": "1px solid #ccc"}},
+      {"value": "Green", "style": {"backgroundColor": "#00FF00", "border": "1px solid #ccc"}},
+      {"value": "Blue", "style": {"backgroundColor": "#0000FF", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}},
+      {"value": "Pink", "style": {"backgroundColor": "#FFC0CB", "border": "1px solid #ccc"}}
+    ],
+    "price": 279.00,
+    "productLink": "38",
+    "category": "Out",
+    "description": "The square body and clear glass panes of this aged sconce have an open, breezy sensibility that's balanced by the sturdy metal frame, square backplate, and bold loop and hook suspension."
+  },
+  {
+    "id": 39,
+    "name": "Georgian Outdoor Sconce - 1 Light",
+    "image": ["/OUT/05c.jpg", "/OUT/06c.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}}
+    ],
+    "price": 525.00,
+    "productLink": "39",
+    "category": "Out",
+    "description": "Handcrafted in Richmond, Virginia by our team of local artisans, this exclusive exterior wall light has design roots reminiscent of fixtures seen in sprawling English countryside estates. The perfect solution for traditional homes, this handsome artisan light fixture includes a single light enclosed with glass and a blackened copper frame with an open bottom design."
+  },
+  {
+    "id": 40,
+    "name": "Seeded Glass Globe Outdoor Sconce - Medium",
+    "image": ["/OUT/07d.jpg", "/OUT/08d.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 260.00,
+    "productLink": "40",
+    "category": "Out",
+    "description": "This outdoor wall lantern boasts classic nautical and railway styling with a beautiful seeded glass globe and a vintage weathered zinc finish."
+  },
+  {
+    "id": 41,
+    "name": "Federal Outdoor Sconce - Large",
+    "image": ["/OUT/09e.jpg", "/OUT/10e.jpg"],
+    "color": [
+        {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+      ],
+      "price": 829.00,
+      "productLink": "41",
+      "category": "Out",
+      "description": "This impressive lantern looks like it just came off a stately old Georgian mansion. Handcrafted and finished by our team of local artisans in Richmond, Virginia, a blackened finish is applied to the copper, producing a dark, rich patina. Classic lines and tall candle lights will welcome your guests with dignity."
+    },
+    {
+      "id": 42,
+      "name": "Griffith Outdoor Sconce - Large",
+      "image": ["/OUT/11f.jpg", "/OUT/12f.jpg"],
+      "color": [
+        {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+        {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+        {"value": "Red", "style": {"backgroundColor": "#FF0000", "border": "1px solid #ccc"}},
+        {"value": "Green", "style": {"backgroundColor": "#00FF00", "border": "1px solid #ccc"}},
+        {"value": "Blue", "style": {"backgroundColor": "#0000FF", "border": "1px solid #ccc"}},
+        {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}},
+        {"value": "Pink", "style": {"backgroundColor": "#FFC0CB", "border": "1px solid #ccc"}}
+      ],
+      "price": 295.00,
+      "productLink": "42",
+      "category": "Out",
+      "description": "Style comes from poise and design, both can be found in our Griffith Outdoor Collection. The long bodies of the fixtures stretch the elegance that much farther."
+    },
+    {
+      "id": 43,
+      "name": "Frame Squared Outdoor Sconce - Medium",
+      "image": ["/OUT/13g.jpg", "/OUT/14g.jpg"],
+      "color": [
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}}
+      ],
+      "price": 249.00,
+      "productLink": "43",
+      "category": "Out",
+      "description": "Simple, sturdy lines and a double framed design create a bold statement with this outdoor sconce. The clean style is complemented by panels of seeded glass that soften the whole look."
+    },
+    {
+      "id": 44,
+      "name": "Classic Vented Hood Outdoor Sconce - Large",
+      "image": ["/OUT/15h.jpg", "/OUT/16h.jpg"],
+      "color": [
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+        {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+      ],
+      "price": 380.00,
+      "productLink": "44",
+      "category": "Out",
+      "description": "This attractive outdoor wall sconce features a classic design with subtle studded accents and a beautiful box frame with flared hood."
+    },
+    {
+      "id": 45,
+      "name": "Franklin Outdoor Sconce",
+      "image": ["/OUT/17i.jpg", "/OUT/18i.jpg"],
+      "color": [
+        {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+        {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+        {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+        {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+      ],
+      "price": 775.00,
+      "productLink": "45",
+      "category": "Out",
+      "description": "With its vented top, and authentic brass accents, this classic hand crafted wall lantern design will comfortably fit with home exteriors ranging from traditional colonial style to updated craftsman."
+    },
+    {
+      "id": 46,
+      "name": "Griffith Outdoor Sconce - Small",
+    "image": ["/OUT/19k.jpg", "/OUT/20k.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 209.00,
+    "productLink": "46",
+    "category": "Out",
+    "description": "Style comes from poise and design, both can be found in our Griffith Outdoor Collection. The long bodies of the fixtures stretch the elegance that much farther."
+  },
+  {
+    "id": 47,
+    "name": "Veritas Outdoor Sconce - Medium",
+    "image": ["/OUT/21l.jpg", "/OUT/22l.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 260.00,
+    "productLink": "47",
+    "category": "Out",
+    "description": "Adorn your outdoors with a piece from our Veritas Collection. Offered in a range of sizes, these mid-century fixtures are structured with textured black hardware and center globe shade."
+  },
+  {
+    "id": 48,
+    "name": "Shaded Firefly Outdoor Sconce",
+    "image": ["/OUT/23m.jpg", "/OUT/24m.jpg"],
+    "color": [
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}},
+      {"value": "Yellow", "style": {"backgroundColor": "#FFFF00", "border": "1px solid #ccc"}}
+    ],
+    "price": 79.00,
+    "productLink": "48",
+    "category": "Out",
+    "description": "A stylish fixture to decorate the exterior of your home, our Shaded Firefly Outdoor Light will enhance the overall motif of your humble abode."
+  },
+  {
+    "id": 49,
+    "name": "Classic Dome Enameled Ceiling Light",
+    "image": ["/Cl/1.1.jpg", "/Cl/1.2.jpg"],
+    "color": [
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 208.00,
+    "productLink": "49",
+    "category": "Cl",
+    "description": "A sleek ceiling light to illuminate your space with a warm, inviting glow and modern design."
+  },
+  {
+    "id": 50,
+    "name": "Slim Shade LED Ceiling Light - Small",
+    "image": ["/Cl/3.1.jpg", "/Cl/3.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}}
+    ],
+    "price": 108.86,
+    "productLink": "50",
+    "category": "Cl",
+    "description": "Elegant white ceiling light that enhances the ambiance of any room with its simple charm."
+  },
+  {
+    "id": 51,
+    "name": "Classic Dome Metal Ceiling Light",
+    "image": ["/Cl/2.1.jpg", "/Cl/2.2.jpg"],
+    "color": [
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 99.00,
+    "productLink": "51",
+    "category": "Cl",
+    "description": "Modern ceiling light featuring a blend of elegance and functionality for your home."
+  },
+  {
+    "id": 52,
+    "name": "Kalini Double Drum Convertible Chandelier",
+    "image": ["/Cl/4.1.jpg", "/Cl/4.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}}
+    ],
+    "price": 590.00,
+    "productLink": "52",
+    "category": "Cl",
+    "description": "Classic white ceiling light, perfect for any living space looking for a clean, bright look."
+  },
+  {
+    "id": 53,
+    "name": "Slim Circular LED Ceiling Light - X-Large",
+    "image": ["/Cl/5.1.jpg", "/Cl/5.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 78.35,
+    "productLink": "53",
+    "category": "Cl",
+    "description": "Versatile ceiling light available in multiple colors, ideal for any modern interior."
+  },
+  {
+    "id": 54,
+    "name": "Mod Bowl Semi-Flush Ceiling Light - Large",
+    "image": ["/Cl/6.1.jpg", "/Cl/6.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}}
+    ],
+    "price": 218.00,
+    "productLink": "54",
+    "category": "Cl",
+    "description": "Stylish ceiling light with a sleek design and energy-efficient lighting for modern spaces."
+  },
+  {
+    "id": 55,
+    "name": "Slim Shade LED Ceiling Light - Large",
+    "image": ["/Cl/7.1.jpg", "/Cl/7.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}}
+    ],
+    "price": 298.00,
+    "productLink": "55",
+    "category": "Cl",
+    "description": "A minimalist ceiling light, designed to complement any contemporary or industrial setting."
+  },
+  {
+    "id": 56,
+    "name": "Bowlby Semi-Flush Ceiling Light",
+    "image": ["/Cl/8.1.jpg", "/Cl/8.2.jpg"],
+    "color": [
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}},
+      {"value": "#CD9575", "style": {"backgroundColor": "#CD9575", "border": "1px solid #ccc"}}
+    ],
+    "price": 280.00,
+    "productLink": "56",
+    "category": "Cl",
+    "description": "A bold and modern ceiling light with a black and copper design, perfect for contemporary rooms."
+  },
+  {
+    "id": 57,
+    "name": "Minimalist Globe Semi-Flush Ceiling Light - 3 Light",
+    "image": ["/Cl/9.1.jpg", "/Cl/9.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}},
+      {"value": "Black", "style": {"backgroundColor": "#000000", "border": "1px solid #ccc"}}
+    ],
+    "price": 320.00,
+    "productLink": "57",
+    "category": "Cl",
+    "description": "Elegant ceiling light that provides a stylish lighting solution for living rooms and bedrooms."
+  },
+  {
+    "id": 58,
+    "name": "Orson Semi-Flush Ceiling Light",
+    "image": ["/Cl/10.1.jpg", "/Cl/10.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}}
+    ],
+    "price": 106.00,
+    "productLink": "58",
+    "category": "Cl",
+    "description": "Simple and elegant white ceiling light that fits perfectly in any room needing extra brightness."
+  },
+  {
+    "id": 59,
+    "name": "Mid-Century Retro Semi-Flush Ceiling Light - 4 Light",
+    "image": ["/Cl/11.1.jpg", "/Cl/11.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}}
+    ],
+    "price": 459.00,
+    "productLink": "59",
+    "category": "Cl",
+    "description": "Sleek and stylish white ceiling light that adds an elegant touch while providing ample light."
+  },
+  {
+    "id": 60,
+    "name": "Scalloped Shade Semi-Flush Ceiling Light - 4 light",
+    "image": ["/Cl/12.1.jpg", "/Cl/12.2.jpg"],
+    "color": [
+      {"value": "White", "style": {"backgroundColor": "#FFFFFF", "border": "1px solid #ccc"}}
+    ],
+    "price": 338.00,
+    "productLink": "60",
+    "category": "Cl",
+    "description": "Bright and modern ceiling light, perfect for illuminating spacious living or dining areas."
+  }
+,
+  {
+      "id": 61,
+      "name": "Cyrus Straight Swing Arm Sconce - Metal Shade",
+      "image": [
+          "/WALL/01a.jpg",
+          "/WALL/02a.jpg"
+      ],
+      "color": [
+          {
+              "value": "White",
+              "style": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1px solid #ccc"
+              }
+          }
+      ],
+      "price": 249.00,
+      "productLink": "61",
+      "category": "Wa",
+      "description": "The Cyrus Collection has a vintage task light silhouette that will mix with an industrial or modern theme for brightness and style. This versatile fixture is an elegant choice that will brighten your space and heighten your decor."
+  },
+  {
+      "id": 62,
+      "name": "Young House Love Dapper Sconce",
+      "image": [
+          "/WALL/03b.jpg",
+          "/WALL/04b.jpg"
+      ],
+      "color": [
+          {
+              "value": "White",
+              "style": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1px solid #ccc"
+              }
+          }
+      ],
+      "price": 139.00,
+      "productLink": "62",
+      "category": "Wa",
+      "description": "This Young House Love Dapper Wall Sconce is a super functional and attractive round wall light fixture for bathrooms or kitchens. One of our most popular wall sconces, our customers have reviewed it as a good kitchen wall light choice for over sink lighting. It also works well above bathroom sinks as a vanity wall light. You'll love the versatility in this light, with an arm that can be adjusted up and down and a durable metal shade available in mid-century modern colors and a variety of backplate finishes."
+  },
+  {
+      "id": 63,
+      "name": "Adjustable Study Swing Arm Sconce",
+      "image": [
+          "/WALL/05c.jpg",
+          "/WALL/06c.jpg"
+      ],
+      "color": [
+          {
+              "value": "White",
+              "style": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1px solid #ccc"
+              }
+          }
+      ],
+      "price": 180.00,
+      "productLink": "63",
+      "category": "Wa",
+      "description": "Looking for an adjustable wall light fixture that smoothly directs its light in your desired line of sight? Our Adjustable Study Wall Sconce fits the bill. The vintage shape with its classic cone shade will be a fashionable addition to your bedside, reading nook, or home office."
+  },
+  {
+      "id": 64,
+      "name": "Cyrus Arched Swing Arm Sconce - Metal Shade",
+      "image": [
+          "/WALL/07d.jpg",
+          "/WALL/08d.jpg"
+      ],
+      "color": [
+          {
+              "value": "White",
+              "style": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1px solid #ccc"
+              }
+          }
+      ],
+      "price": 289.00,
+      "productLink": "64",
+      "category": "Wa",
+      "description": "The Cyrus Collection has a vintage task light silhouette that will mix with an industrial or modern theme for brightness and style. This versatile fixture is an elegant choice that will brighten your space and heighten your decor. This light can also be mounted as a pendant!"
+  },
+  {
+      "id": 65,
+      "name": "Young House Love Dapper Adjustable Swing Arm",
+      "image": [
+          "/WALL/09e.jpg",
+          "/WALL/10e.jpg"
+      ],
+      "color": [
+          {
+              "value": "White",
+              "style": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1px solid #ccc"
+              }
+          },
+          {
+              "value": "Black",
+              "style": {
+                  "backgroundColor": "#000000",
+                  "border": "1px solid #ccc"
+              }
+          },
+          {
+              "value": "#CD9575",
+              "style": {
+                  "backgroundColor": "#CD9575",
+                  "border": "1px solid #ccc"
+              }
+          }
+      ],
+      "price": 109.00,
+      "productLink": "65",
+      "category": "Wa",
+      "description": "This Young House Love super functional Dapper Wall Sconce has 2 adjustable arms which can be adjusted up and down or side to side. The removable shade also moves independently for flexible functionality."    },
+    {
+        "id": 66,
+        "name": "Adjustable Arm Cone Swing Arm",
+        "image": [
+            "/WALL/11f.jpg",
+            "/WALL/12f.jpg"
+        ],
+        "color": [
+            {
+                "value": "White",
+                "style": {
+                    "backgroundColor": "#FFFFFF",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Black",
+                "style": {
+                    "backgroundColor": "#000000",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "#CD9575",
+                "style": {
+                    "backgroundColor": "#CD9575",
+                    "border": "1px solid #ccc"
+                }
+            }
+        ],
+        "price": 252.00,
+        "productLink": "66",
+        "category": "Wa",
+        "description": "This classic adjustable swing arm wall sconce, with a traditional jointed arm capped in a sleek cone shade, merges style and functionality for the perfect task lighting solution for refined spaces. Moves up and down and side to side."
+    },
+    {
+        "id": 67,
+        "name": "Harper Swing Arm",
+        "image": [
+            "/WALL/13j.jpg",
+            "/WALL/14j.jpg"
+        ],
+        "color": [
+            {
+                "value": "White",
+                "style": {
+                    "backgroundColor": "#FFFFFF",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Black",
+                "style": {
+                    "backgroundColor": "#000000",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "#CD9575",
+                "style": {
+                    "backgroundColor": "#CD9575",
+                    "border": "1px solid #ccc"
+                }
+            }
+        ],
+        "price": 590.00,
+        "productLink": "67",
+        "category": "Wa",
+        "description": "The Harper Swing Arm is a transitional piece with organic features. The slim arm is wrapped with natural rattan material and has an off-white shade. The attractive swivels and keys contribute to its character and are functional for adjusting the arm and head to add light exactly where you need it!"
+    },
+    {
+        "id": 68,
+        "name": "Transitional Swing Arm Sconce",
+        "image": [
+            "/WALL/15g.jpg",
+            "/WALL/16g.jpg"
+        ],
+        "color": [
+            {
+                "value": "White",
+                "style": {
+                    "backgroundColor": "#FFFFFF",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Black",
+                "style": {
+                    "backgroundColor": "#000000",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "#CD9575",
+                "style": {
+                    "backgroundColor": "#CD9575",
+                    "border": "1px solid #ccc"
+                }
+            }
+        ],
+        "price": 332.00,
+        "productLink": "68",
+        "category": "Wa",
+        "description": "Simple and clean lines with a gently curving arm and off-white empire shade. The arm swings from left to right for flexible lighting where you need it. A pull chain on the backplate adds retro charm while the cord and plug option allow you to install this fixture just about anywhere! 12.75 rod and 78 of black cloth cord (Bronze) or clear cord (Aged Brass and Polished Nickel) included for optional installation."
+    },
+    {
+        "id": 69,
+        "name": "Adjustable Arm Swing Arm Sconce - 1 Light",
+        "image": [
+            "/WALL/17h.jpg",
+            "/WALL/18h.jpg"
+        ],
+        "color": [
+            {
+                "value": "White",
+                "style": {
+                    "backgroundColor": "#FFFFFF",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Black",
+                "style": {
+                    "backgroundColor": "#000000",
+                    "border": "1px solid #ccc"
+                }
+            }
+        ],
+        "price": 210.00,
+        "productLink": "69",
+        "category": "Wa",
+        "description": "This classic, adjustable arm wall sconce mixes both style and functionality. It moves up and down, not side to side, to direct the task lighting of the swing arm lamp where you need it. This wall mounted sconce is great for home office or study tasks that require illumination, like reading, writing, crafts, and other hobbies."
+    },
+    {
+        "id": 70,
+        "name": "Superior Swing Arm",
+        "image": [
+            "/WALL/19i.jpg"
+        ],
+        "color": [
+            {
+                "value": "White",
+                "style": {
+                    "backgroundColor": "#FFFFFF",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Black",
+                "style": {
+                    "backgroundColor": "#000000",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Red",
+                "style": {
+                    "backgroundColor": "#FF0000",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Green",
+                "style": {
+                    "backgroundColor": "#00FF00",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Blue",
+                "style": {
+                    "backgroundColor": "#0000FF",
+                    "border": "1px solid #ccc"
+                }
+            }
+        ],
+        "price": 276.00,
+        "productLink": "70",
+        "category": "Wa",
+        "description": "Our popular basic swing arm has all the important features: solid construction, three light levels, a shade diffuser to prevent glare, six popular finish choices, easy conversion to direct wire, and attractive ball turn-knob."
+    },
+    {
+        "id": 71,
+        "name": "Down-Bridge Shade Swing Arm",
+        "image": [
+            "/WALL/20k.jpg",
+            "/WALL/21k.jpg"
+        ],
+        "color": [
+            {
+                "value": "White",
+                "style": {
+                    "backgroundColor": "#FFFFFF",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Red",
+                "style": {
+                    "backgroundColor": "#FF0000",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Green",
+                "style": {
+                    "backgroundColor": "#00FF00",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Blue",
+                "style": {
+                    "backgroundColor": "#0000FF",
+                    "border": "1px solid #ccc"
+                }
+            }
+        ],
+        "price": 362.00,
+        "productLink": "71",
+        "category": "Wa",
+        "description": "This wall lamp allows for height adjustment and a swing arm. The down-bridge style lamp shade is great for focusing light on a task. Choose between three finish and shade options: Antique Brass with Off-White linen shade, Oil Rubbed Bronze with Off-White Linen shade, or Satin Nickel with White linen shade."
+    },
+    {
+        "id": 72,
+        "name": "Cyrus Swing Arm Sconce - Metal Shade",
+        "image": [
+            "/WALL/22l.jpg",
+            "/WALL/23l.jpg"
+        ],
+        "color": [
+            {
+                "value": "White",
+                "style": {
+                    "backgroundColor": "#FFFFFF",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Red",
+                "style": {
+                    "backgroundColor": "#FF0000",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Green",
+                "style": {
+                    "backgroundColor": "#00FF00",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Blue",
+                "style": {
+                    "backgroundColor": "#0000FF",
+                    "border": "1px solid #ccc"
+                }
+            },
+            {
+                "value": "Yellow",
+                "style": {
+                    "backgroundColor": "#FFFF00",
+                    "border": "1px solid #ccc"
+                }
+            }
+        ],
+        "price": 179.00,
+        "productLink": "72",
+        "category": "Wa",
+        "description": "The Cyrus Collection has a vintage task light silhouette that will mix with an industrial or modern theme for brightness and style. This versatile fixture is an elegant choice that will brighten your space and heighten your decor."
+    }
+]

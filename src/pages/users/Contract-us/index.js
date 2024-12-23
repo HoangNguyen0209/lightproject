@@ -4,6 +4,22 @@ import "./contract-us.css";
 
 const ContractUs = () => {
   return (
+    <div>
+       <nav aria-label="breadcrumb" className="breadcrumb-container">
+      <ol className="breadcrumb-list">
+        <li className="breadcrumb-item">
+          <a href="/Homepage" className="breadcrumb-link">
+            Home
+          </a>
+        </li>
+        <li className="breadcrumb-separator">»</li>
+        <li className="breadcrumb-item">
+        <a href="/Contract-us" className="breadcrumb-link">
+        Contract Us
+          </a>
+        </li>
+      </ol>
+    </nav>
     <div className="header1">
       <h1>Contact Us</h1>
       <hr align="center" width="15%" color="#c9a22e" />
@@ -78,6 +94,7 @@ const ContractUs = () => {
 
       
 
+    </div>
     </div>
   );
 };

@@ -12,7 +12,6 @@
 /* Header Top */
 .header-top {
     background-color: #F7F6F0;
-   
 }
 
 .container {
@@ -29,28 +28,14 @@
     height: 50px;
 }
 
-.search-bar input {
-    width: 506px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-
-.user-actions a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
-}
-
-.user-actions a:hover {
-    color: #c9a22e;
-}
-
 /* Navigation Bar */
 .nav-bar {
-    background-color: #F7F6F0;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .ulFa {
@@ -58,31 +43,60 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-.nav-bar ul li {
-    position: relative;
-}
-
-.nav-bar ul li a {
-    display: block;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: #000000;
-    font-size: 14px;
-}
-
-.nav-bar ul li a:hover {
-    background-color: #e2d9a8;
-}
-
-/* Dropdown */
-.dropdown {
+.nav-bar ul li,
+.nav-bar .nav-item {
     position: relative;
     display: inline-block;
 }
 
+.nav-bar ul li a,
+.nav-item {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    background: none;
+}
+
+.nav-bar ul li a:hover,
+.nav-item:hover {
+    background-color: #e2d9a8;
+    color: #fff;
+}
+
+/* Cart with quantity */
+.cart-link {
+    position: relative;
+}
+
+.cart-link::after {
+    content: attr(data-cart-quantity);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #c9a22e;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dropdown */
 .dropdown .dropbtn {
     border: none;
     outline: none;
@@ -92,8 +106,12 @@
     margin: 0;
     cursor: pointer;
     padding: 15px 20px;
+    
 }
-
+.dropbtn:hover{
+    background-color: #e2d9a8;
+    color: #fff;
+}
 .dropdown-menu {
     list-style: none;
     display: none;
@@ -102,14 +120,14 @@
     top: 100%;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     margin: 0;
     padding: 0;
 }
 
-.dropdown-menu li {
-    position: relative;
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 .dropdown-menu li a {
@@ -120,78 +138,126 @@
     text-align: left;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
 .dropdown-menu li a:hover {
     background-color: #c9a22e;
     color: white;
 }
 
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Mobile menu container */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F7F6F0;
+}
+
+.mobile-menu.active {
+    display: flex;
+}
+
+.mobile-menu .user-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.mobile-menu .user-actions span,
+.mobile-menu .user-actions .btna,
+.mobile-menu .user-actions a {
+    margin-top: 10px;
+}
+
+.mobile-menu .nav-bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+.mobile-menu .ulFa {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mobile-menu .nav-bar ul li a {
+    padding: 12px 16px;
+    width: 100%;
+}
+
+.mobile-menu .nav-bar ul li a:hover {
+    background-color: #e2d9a8;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Đặt các phần tử theo chiều dọc */
-        align-items: flex-start; /* Căn trái các phần tử trong container */
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .logo {
         display: flex;
-        justify-content: center; 
-        width: 100%; 
-        margin-bottom: 10px; 
-    }
-
-    .search-bar input {
+        justify-content: center;
         width: 100%;
-        margin-top: 10px;
-        
+        margin-bottom: 10px;
     }
 
-    .user-actions a {
-        margin-left: 0;
-        margin-top: 10px;
+    .hamburger-menu {
+        display: block;
     }
 
-    /* Stack navigation items vertically */
-    .ulFa {
+    .nav-bar {
         display: none;
+        flex-direction: column;
         width: 100%;
-        padding: 0;
-        margin: 0;
-        flex-direction: column; /* Ensures vertical stacking */
+        text-align: left;
+    }
+
+    .nav-bar.active {
+        display: flex;
+    }
+
+    .ulFa {
+        flex-direction: column;
+        gap: 10px;
     }
 
     .nav-bar ul li {
         width: 100%;
-        text-align: center;
     }
 
-    .nav-bar ul li a {
-        padding: 12px;
+    .nav-bar ul li a,
+    .nav-item {
+        padding: 12px 16px;
         width: 100%;
     }
 
-    /* Dropdown menu for smaller screens */
-    .dropdown-menu {
-        position: relative;
-        top: 0;
+    .user-actions-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 20px;
     }
 
-    /* Hamburger Menu */
-     .hamburger-menu {
-        display: block; /* Hiển thị hamburger menu */
-        cursor: pointer;
-        font-size: 24px;
-        margin-left: 10px; /* Khoảng cách bên trái */
-        padding: 15px;
-        align-self: flex-start; /* Căn trái hamburger menu */
+    .user-actions-mobile span,
+    .user-actions-mobile .btna,
+    .user-actions-mobile a {
+        margin-top: 10px;
     }
 
-
-    /* Show menu when the 'active' class is added */
-    .nav-bar.active .ulFa {
-        display: flex; /* Show menu when active */
+    .nav-bar ul li a:hover {
+        background-color: #e2d9a8;
     }
 }

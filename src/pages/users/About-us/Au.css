@@ -279,3 +279,39 @@
   height: auto; /* Giữ tỷ lệ khung hình */
   border-radius: 8px; /* Bo góc (tùy chọn) */
 }
+.breadcrumb-container {
+  font-size: 14px;
+margin-left: 365px;
+margin-top: 20px;
+padding-bottom: 50px;
+}
+
+.breadcrumb-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb-item {
+  margin-right: 5px;
+}
+
+.breadcrumb-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.breadcrumb-separator {
+  margin-right: 5px;
+}
+
+.breadcrumb-current {
+  color: #555;
+}
+@media (max-width: 1200px){
+  .breadcrumb-container{
+    display: none;
+  }
+}

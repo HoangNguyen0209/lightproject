@@ -1,25 +1,30 @@
-* {box-sizing: border-box}
-.mySlides {display: none}
-img {vertical-align: middle;}
 
+img {
+  vertical-align: middle;
+}
 
+/* Slideshow Container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
   margin: auto;
+  box-sizing: border-box;
+ 
 }
 
-.imgcontainer{
+.imgcontainer {
   width: 100%;
-  height: 700px;
   object-fit: cover;
+  padding: 20px;
 }
+
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 30px;
   margin-top: -22px;
   color: white;
   font-weight: bold;
@@ -35,7 +40,7 @@ img {vertical-align: middle;}
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .dot {
@@ -49,22 +54,297 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
+
 
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+  height: 680px;
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-
+/* Responsive Adjustments */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next, .text {
+    font-size: 11px;
+  }
 }
 
+/* Main Wrapper */
+.main-wrapper {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.brand-logo-container {
+  margin-bottom: 20px;
+  padding: 70px;
+}
+
+.brand-logo {
+  width: 300px;
+  height: auto;
+}
+
+.brand-name {
+  color: #c9a22e;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.company-description {
+  color: #333;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.additional-info {
+  color: #333;
+  font-size: 16px;
+}
+
+.general-light {
+  color: #c9a22e;
+  font-weight: bold;
+}
+
+.glass-light {
+  color: #c9a22e;
+}
+
+/* Gallery Container */
+.gallery-container {
+  text-align: center;
+  padding: 70px;
+}
+
+.gallery-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c9a22e;
+  margin-bottom: 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-hover {
+  opacity: 1;
+}
+
+.view-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.view-button:hover {
+  background-color: #c9a22e;
+}
+
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 2rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+  transition: transform 0.3s ease;
+}
+
+.close-button:hover {
+  transform: scale(1.2);
+}
+.custom-con {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+/* Mobile View - Adjustments for small screens */
+@media only screen and (max-width: 768px) {
+  .slideshow-container {
+    height: 400px;
+  }
+
+  .imgcontainer {
+    height: 400px;
+  }
+
+  .brand-logo {
+    width: 120px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+  }
+
+  .company-description, .additional-info {
+    font-size: 14px;
+  }
+
+  .gallery-title {
+    font-size: 1.5rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+
+  .gallery-item {
+    max-width: 100%;
+  }
+
+  .modal-content {
+    max-width: 90%;
+  }
+}
+
+/* Mobile View - Adjustments for very small screens */
+@media only screen and (max-width: 480px) {
+  .slideshow-container {
+    height: 300px;
+  }
+
+  .imgcontainer {
+    height: 300px;
+  }
+
+  .brand-logo {
+    width: 100px;
+  }
+
+  .brand-name {
+    font-size: 18px;
+  }
+
+  .company-description, .additional-info {
+    font-size: 12px;
+  }
+
+  .gallery-title {
+    font-size: 1.2rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .gallery-image {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .modal-content {
+    max-width: 80%;
+  }
+
+  .view-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Larger screens - desktop view */
+@media only screen and (min-width: 1024px) {
+  .slideshow-container {
+    height: 700px;
+  }
+
+  .imgcontainer {
+    height: 700px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 40px;
+  }
+
+  .gallery-item {
+    max-width: 100%;
+  }
+}

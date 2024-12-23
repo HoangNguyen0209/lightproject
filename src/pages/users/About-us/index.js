@@ -2,6 +2,22 @@ import { memo } from "react";
 import "./Au.css";
 const AboutUs = () => {
   return (
+    <div>
+       <nav aria-label="breadcrumb" className="breadcrumb-container">
+      <ol className="breadcrumb-list">
+        <li className="breadcrumb-item">
+          <a href="/Homepage" className="breadcrumb-link">
+            Home
+          </a>
+        </li>
+        <li className="breadcrumb-separator">»</li>
+        <li className="breadcrumb-item">
+        <a href="/About-us" className="breadcrumb-link">
+            About Us
+          </a>
+        </li>
+      </ol>
+    </nav>
     <div className="Ab">
       <div className="column left"></div> {/* Left column (empty) */}
 
@@ -149,6 +165,7 @@ const AboutUs = () => {
       </div>
 
       <div className="column right"></div> {/* Right column (empty) */}
+    </div>
     </div>
   );
 };

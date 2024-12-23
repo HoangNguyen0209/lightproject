@@ -1,6 +1,7 @@
 import { memo } from "react";
 import React, { useState } from 'react';
 import "./FQA.css";
+import ProductCarousel from "../../../component/ProductlistRandom/ProductList";
 const FQA = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -38,6 +39,21 @@ const FQA = () => {
 
   return (
     <div>
+      <nav aria-label="breadcrumb" className="breadcrumb-container">
+      <ol className="breadcrumb-list">
+        <li className="breadcrumb-item">
+          <a href="/Homepage" className="breadcrumb-link">
+            Home
+          </a>
+        </li>
+        <li className="breadcrumb-separator">»</li>
+        <li className="breadcrumb-item">
+        <a href="/Customer-Help" className="breadcrumb-link">
+            Customers Help
+          </a>
+        </li>
+      </ol>
+    </nav>
       <h1>FAQ of Chic Light & Design</h1>
       <hr align="center" width="30%" color="#c9a22e" />
     <div className="faq-container">
@@ -54,6 +70,7 @@ const FQA = () => {
         </div>
       ))}
     </div>
+    <ProductCarousel/>
     </div>
   );
 };
